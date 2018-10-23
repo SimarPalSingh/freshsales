@@ -1,0 +1,76 @@
+{
+    "template":{
+        "image":{
+            "type": "image",
+            "url": "https://placekitten.com/408/287",
+            "buttons": []
+        },
+        "text": {
+            "type": "text",
+            "text": "placeholder",
+            "buttons": []
+        },
+        "cards":{
+            "type": "cards",
+            "elements": []
+         }
+    },
+    "button":{
+        "node":{
+            "type": "node",
+            "caption": "Show",
+            "target": "target"
+        },
+        "share":{
+            "type":"share"
+        },
+        "url":{
+            "type": "url",
+            "caption": "External link",
+            "url": "https://example.com",
+            "webview_size": "full"
+        },
+        "call":{
+            "type": "call",
+            "caption": "Call me",
+            "phone": "+1 (555) 555-55-55"
+        },
+        "flow":{
+            "type":"flow",
+            "caption":"Go",
+            "target":"content20180221085508_278589"
+        }
+    },
+    "response": {
+        "version": "v2",
+        "content": {
+            "messages": [],
+            "actions": [],
+            "quick_replies": []
+        }
+    },
+
+    "elements": {
+        "card":{
+            "title": "An adorable kitten",
+            "subtitle": "Powered by PlaceKitten/Vesuvio",
+            "image_url": "https://placekitten.com/408/287"
+        }
+    },
+    "actions":{
+        "add_tag":{
+            "action":"add_tag",
+            "tag_name":"tag_name"
+        },
+        "remove_tag":{
+            "action":"remove_tag",
+            "tag_name":"tag_name"
+        },
+        "set_field_value":{
+            "type":"set_field_value",
+            "action":"set_field_value",
+            "field_name":"field_name",
+            "field_value":"field_value"
+        }
+    }
+}

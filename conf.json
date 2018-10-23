@@ -1,0 +1,18 @@
+{
+    "bots":["ghostwrite", "dq_electrical"],
+    "ghostwrite":{
+        "freshsales":"jGFoiP4BkKwqeI3LsAYAUw",
+        "manychat":"2232173497013320:faf4e277fa3ca0b154d51bea237d63a1",
+        "slack":"https://hooks.slack.com/services/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",
+        "url":"https://ghostwrite.freshsales.io",
+        "email":false
+    },
+    "dq_electrical": {
+        "freshsales":"SfD9oHSPcbdpwmdPqecDCg",
+        "manychat":"284213678371707:a244571e82627fb8c6279f7ccf3d705f",
+        "slack":"",
+        "url":"https://dqelectrical.freshsales.io",
+        "email":true,
+        "email_destinations":["andrew@vesuvio.com.au"]
+    }
+}
